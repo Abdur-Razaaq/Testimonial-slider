@@ -21,7 +21,7 @@ body {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 3px rgba(250, 250, 250, 0.5);
   padding: 10%;
   margin: 20%;
   display: flex;
@@ -44,11 +44,13 @@ body {
 h1 {
   font-size: 30px;
   margin-bottom: 5%;
+  color: darkblue;
 }
 
 h2 {
   font-size: 25px;
   margin-bottom: 5%;
+  color: snow;
 }
 
 q {
