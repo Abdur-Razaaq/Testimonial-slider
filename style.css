@@ -8,6 +8,7 @@ body {
   font-family: sans-serif;
   background-image: url(https://picsum.photos/1200);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .owl-carousel {
