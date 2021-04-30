@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="item item-1">
+        <img src="./images/kamogelo.jpeg" alt="An image of Kamogelo " />
+        <div class="content">
+          <h1>Kamogelo Mkonto</h1>
+          <h2>Student</h2>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eos hic unde culpa voluptas accusantium ad id, magni tempora aut
+            facere quas dignissimos fuga veritatis officia aliquid at nobis
+            porro!</q
+          >
+        </div>
+      </div>
+      <div class="item item-2">
+        <img src="./images/Rafiki.webp" alt="An image of Nasar" />
+        <div class="content">
+          <h1>Nasar</h1>
+          <h2>Student</h2>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eos hic unde culpa voluptas accusantium ad id, magni tempora aut
+            facere quas dignissimos fuga veritatis officia aliquid at nobis
+            porro!</q
+          >
+        </div>
+      </div>
+      <div class="item item-3">
+        <img src="./images/Zazu2.webp" alt="An image of Yamkela" />
+        <div>
+          <h1>Yamkela</h1>
+          <h2>Student</h2>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eos hic unde culpa voluptas accusantium ad id, magni tempora aut
+            facere quas dignissimos fuga veritatis officia aliquid at nobis
+            porro!</q
+          >
+        </div>
+      </div>
+      <div class="item item-4">
+        <img src="./images/Timon2'.webp" alt="An image of Shuaib" />
+        <div class="content">
+          <h1>Shuaib</h1>
+          <h2>Student</h2>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eos hic unde culpa voluptas accusantium ad id, magni tempora aut
+            facere quas dignissimos fuga veritatis officia aliquid at nobis
+            porro!</q
+          >
+        </div>
+      </div>
+      <div class="item item-5">
+        <img src="./images/Pumbaa.webp" alt="An image of Jason" />
+        <div class="content">
+          <h1>Jason</h1>
+          <h2>Student</h2>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eos hic unde culpa voluptas accusantium ad id, magni tempora aut
+            facere quas dignissimos fuga veritatis officia aliquid at nobis
+            porro!</q
+          >
+        </div>
+      </div>
+      <div class="item item-6">
+        <img src="./images/Scar.jpg" alt="An image of Devin" />
+        <div class="content">
+          <h1>Devin</h1>
+          <h2>Student</h2>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eos hic unde culpa voluptas accusantium ad id, magni tempora aut
+            facere quas dignissimos fuga veritatis officia aliquid at nobis
+            porro!</q
+          >
+        </div>
+      </div>
+      <div class="item item-7">
+        <img src="./images/Who2.jpg" alt="Who?" />
+        <div class="content">
+          <h1>Who?</h1>
+          <h2>So sketchy!</h2>
+          <q
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eos hic unde culpa voluptas accusantium ad id, magni tempora aut
+            facere quas dignissimos fuga veritatis officia aliquid at nobis
+            porro!</q
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>

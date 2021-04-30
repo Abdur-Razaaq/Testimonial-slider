@@ -1,0 +1,48 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://picsum.photos/1200);
+  background-size: cover;
+}
+
+.owl-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  background: rgba(228, 206, 7, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  padding: 10%;
+  margin: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  margin: 3%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+q {
+  font-size: 20px;
+}
