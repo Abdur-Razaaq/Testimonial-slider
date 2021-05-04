@@ -23,10 +23,12 @@
     <!-- Set up your HTML -->
     <div class="owl-carousel">
       <div class="item item-1">
-        <img src="./images/kamogelo2.jpeg" alt="An image of Kamogelo " />
+        <div class="image-container">
+          <img src="./images/kamogelo2.jpeg" alt="An image of Kamogelo " />
+        </div>
         <div class="content">
           <h1>Kamogelo Mkonto</h1>
-          <h2>- Student -</h2>
+          <h2>Student</h2>
           <q
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             eos hic unde culpa voluptas accusantium ad id, magni tempora aut
@@ -36,10 +38,12 @@
         </div>
       </div>
       <div class="item item-2">
-        <img src="./images/Rafiki.webp" alt="An image of Nasar" />
+        <div class="image-container">
+          <img src="./images/Rafiki.webp" alt="An image of Nasar" />
+        </div>
         <div class="content">
           <h1>Nasar</h1>
-          <h2>- Student -</h2>
+          <h2>-Student-</h2>
           <q
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             eos hic unde culpa voluptas accusantium ad id, magni tempora aut
@@ -49,10 +53,12 @@
         </div>
       </div>
       <div class="item item-3">
-        <img src="./images/Zazu2.webp" alt="An image of Yamkela" />
+        <div class="image-container">
+          <img src="./images/Zazu2.webp" alt="An image of Yamkela" />
+        </div>
         <div class="content">
           <h1>Yamkela</h1>
-          <h2>- Student -</h2>
+          <h2>Student</h2>
           <q
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             eos hic unde culpa voluptas accusantium ad id, magni tempora aut
@@ -62,10 +68,12 @@
         </div>
       </div>
       <div class="item item-4">
-        <img src="./images/Timon2'.webp" alt="An image of Shuaib" />
+        <div class="image-container">
+          <img src="./images/Timon2'.webp" alt="An image of Shuaib" />
+        </div>
         <div class="content">
           <h1>Shuaib</h1>
-          <h2>- Student -</h2>
+          <h2>Student</h2>
           <q
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             eos hic unde culpa voluptas accusantium ad id, magni tempora aut
@@ -75,10 +83,12 @@
         </div>
       </div>
       <div class="item item-5">
-        <img src="./images/Pumbaa.webp" alt="An image of Jason" />
+        <div class="image-container">
+          <img src="./images/Pumbaa.webp" alt="An image of Jason" />
+        </div>
         <div class="content">
           <h1>Jason</h1>
-          <h2>- Student -</h2>
+          <h2>Student</h2>
           <q
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             eos hic unde culpa voluptas accusantium ad id, magni tempora aut
@@ -88,10 +98,12 @@
         </div>
       </div>
       <div class="item item-6">
-        <img src="./images/Scar.jpg" alt="An image of Devin" />
+        <div class="image-container">
+          <img src="./images/Scar.jpg" alt="An image of Devin" />
+        </div>
         <div class="content">
           <h1>Devin</h1>
-          <h2>- Student -</h2>
+          <h2>Student</h2>
           <q
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             eos hic unde culpa voluptas accusantium ad id, magni tempora aut
@@ -101,10 +113,12 @@
         </div>
       </div>
       <div class="item item-7">
-        <img src="./images/Who2.jpg" alt="Who?" />
+        <div class="image-container">
+          <img src="./images/Who2.jpg" alt="Who?" />
+        </div>
         <div class="content">
           <h1>Who T. F.?</h1>
-          <h2>- So sketchy! -</h2>
+          <h2>So sketchy!</h2>
           <q
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             eos hic unde culpa voluptas accusantium ad id, magni tempora aut
@@ -134,6 +148,24 @@
           stagePadding: 100,
           dots: false,
           autoplay: true,
+          center: true,
+          responsive: {
+            0: {
+              items: 1,
+              margin: 0,
+              stagePadding: 0,
+            },
+            300: {
+              items: 1,
+              margin: 10,
+              stagePadding: 10,
+            },
+            800: {
+              items: 1,
+              margin: 20,
+              stagePadding: 20,
+            },
+          },
         });
       });
     </script>
